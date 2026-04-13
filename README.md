@@ -58,3 +58,4 @@ Run the following commands in the terminal:
 ```bash
 sqlite3 bookstore.db < createTables.sql
 sqlite3 bookstore.db < insertRows.sql
+python3 bookstore_cli.py

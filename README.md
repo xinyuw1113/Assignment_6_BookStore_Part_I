@@ -59,25 +59,9 @@ Run the following commands in the terminal:
 sqlite3 bookstore.db < createTables.sql
 sqlite3 bookstore.db < insertRows.sql
 
-How to Run the Python Program
+```markdown
+## How to Run the Python Program
 After creating the database, run:
+
+```bash
 python3 bookstore_cli.py
-
-CLI Features
-The Python CLI allows the user to:
-View all categories
-View all books
-View books in a category
-Search books by title
-Add a new book
-Update a book price
-Delete a book
-Search books by author
-Quit
-Notes
-The program uses parameterized SQL queries for all user input.
-Foreign keys are enabled in SQLite.
-The database includes 4 categories and 12 books total.
-Each category contains at least 3 books.
-All sample books include a title, author, ISBN, price, image filename, and readNow value.
-
